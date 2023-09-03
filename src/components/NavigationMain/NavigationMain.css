@@ -278,3 +278,18 @@
     border-bottom: none;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .navigation-main__links{
+    margin-top: 144px;
+  }
+
+  .navigation-main__link:hover{
+    padding-bottom: 15px;
+  }
+
+  .navigation-main__link:hover{
+    margin-bottom: 46px;
+  }
+}
+

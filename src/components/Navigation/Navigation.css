@@ -328,23 +328,16 @@
   }
 }
 
-/* @media screen and (max-width: 420px) {
-  .burger-menu__button{
-    width: 40px;
-    height: 43px;
-  }
-
-  .navigation__main-link{
+@media screen and (max-width: 400px) {
+  .navigation__links{
     margin-top: 144px;
-    margin-bottom: 24px;
   }
 
-  .navigation__link-film{
-    padding-bottom: 7px;
-    margin-bottom: 15px;
+  .navigation__link:hover{
+    padding-bottom: 15px;
   }
 
-  .navigation__link-profile{
+  .navigation__link:hover{
     margin-bottom: 46px;
   }
-} */
+}
